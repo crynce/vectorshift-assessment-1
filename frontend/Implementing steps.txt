@@ -1,0 +1,14 @@
+create a general purpose node that takes in 2 props, ID and data 
+
+create a NodeLibrary which will be passed to general purpose node to create nodes
+
+map over elements of node library to create toolbar options
+
+each tool will have the data required for creating that specific node
+
+input node => the type of the node first, the name of the node/ID, and then the type of input
+output node => type of the node, name of the node, type of output
+text node -> type of node, name/id of the node, 
+
+
+I first created a general Node which will create different nodes based on our data object
